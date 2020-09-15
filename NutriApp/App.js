@@ -12,22 +12,12 @@ export default function App() {
     const imc = peso / (alt * alt);
 
     if (imc < 18.6) {
-<<<<<<< HEAD
       alert('Você está abaixo do peso! \n' + 'IMC ' + imc.toFixed(2))
     } else if (imc >= 18.6 && imc< 24.9) {
       alert('Peso ideal! \n' + ' IMC ' + imc.toFixed(2));
     } else if (imc >= 24.9 && imc < 34.9) {
       alert('Levemente acima do peso! \n' + 'IMC ' + imc.toFixed(2));
-=======
-      alert('Você está abaixo do peso! ' + imc.toFixed(2))
-    } else if (imc >= 18.6 && imc < 24.9) {
-      alert('Peso ideal! ' + imc.toFixed(2));
-    } else if (imc >= 24.9 && imc < 34.9) {
-      alert('Levemente acima do peso! ' + imc.toFixed(2));
->>>>>>> 7fe3d1cc601b67edde88a26086ec2eb51e0bec00
     }
-
-
   }
 
 
